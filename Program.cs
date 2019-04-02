@@ -7,7 +7,7 @@ namespace docker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World == " + SKImageInfo.PlatformColorType);
+            Console.WriteLine($"Platform color type: {SKImageInfo.PlatformColorType}");
         }
     }
 }
