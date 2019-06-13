@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SkiaSharp" Version="1.68.1-preview-108" />
-    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="1.68.1-preview-108" />
+    <PackageReference Include="SkiaSharp" Version="1.68.1-rc.111" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="1.68.1-rc.111" />
   </ItemGroup>
 
 </Project>
